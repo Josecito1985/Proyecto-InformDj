@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block titulo %} Inicio de sesion {% endblock %}
+
+{% block contenido %}
+<div style="padding: 320px;">
+    <h1 style="text-align: center;"> Gracias por visitarnos! </h1>
+    <p style="text-align: center;">Puede iniciar sesion de nuevo <a href="{% url 'login' %}">aquí</a></p>
+</div>
+{% endblock %}

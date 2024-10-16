@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+form {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.card-footer{
+    margin-bottom: 1px;
+}
+.container {
+    margin-top: 25px;
+    width: 50%;
+    height: 20%;
+}
+.formregistro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagenpost{
+    width: 100%;
+    height: 50%;
+}
+
+body{
+    min-height: 100vh;
+    background: rgb(193,224,255);
+    background: linear-gradient(146deg, rgba(193,224,255,1) 0%, rgba(255,186,186,1) 50%, rgba(255,221,173,1) 100%);
+    font-family: "Outfit", sans-serif;}
+
+.botoninicioindividual{
+    margin-top: 15px;
+}
+.botonesinicio {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+}
+
+.wrap{
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* display: grid;
+    color:  white;
+    width: 50%;
+    height: 100%;
+    float: right;
+    box-shadow: 0 0 25px black;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    align-content: center;
+    justify-items: center; */
+}
+main{
+    background-color: #f8d5d5;
+    border-radius: 3%;
+}
+
+.imagenindividual{
+    width: 50%;
+    height: 50%;
+}
+
+.imagenpost{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
